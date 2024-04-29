@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="purple_200">#EF9A9A</color>
+    <color name="purple_500">#F44336</color>
+    <color name="purple_700">#D32F2F</color>
+    <color name="teal_200">#6F79A8</color>
+    <color name="teal_700">#001970</color>
+
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+
+    <color name="colorPrimary">#E91E63</color>
+    <color name="colorPrimaryDark">#C2185B</color>
+    <color name="colorAccent">#3F51B5</color>
+    <color name="colorAccentDark">#303F9F</color>
+
+    <color name="colorPrimaryText">#212121</color>
+    <color name="colorSecondaryText">#757575</color>
+    <color name="colorIcons">#FFFFFF</color>
+    <color name="colorDivider">#BDBDBD</color>
+
+    <!-- COLORS -->
+    <color name="header">#C0C0C0</color>
+
+    <!-- STATUS -->
+    <color name="red_darken_2">#d32f2f</color> <!--DANGER-->
+    <color name="yellow_darken_4">#f57f17</color> <!--WARN-->
+    <color name="blue_darken_3">#1565c0</color> <!--INFO-->
+    <color name="green_darken_2">#388E3C</color> <!--SUCCESS-->
+    <color name="blue_gray_darken_1">#546e7a</color> <!--PRIMARY-->
+
+    <color name="grey_10">#e6e6e6</color>
+    <color name="grey_20">#cccccc</color>
+    <color name="grey_40">#999999</color>
+    <color name="grey_50">#FAFAFA</color>
+    <color name="grey_60">#666666</color>
+    <color name="grey_90">#263238</color>
+</resources>

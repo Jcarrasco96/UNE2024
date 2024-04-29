@@ -1,0 +1,48 @@
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <PreferenceCategory android:title="Exportar e importar datos">
+        <Preference
+            android:key="key_export"
+            android:summary="Exportar datos de la aplicación a un archivo"
+            android:title="@string/mnu_export" />
+        <Preference
+            android:key="key_import"
+            android:summary="Importar datos a la aplicación de un archivo"
+            android:title="@string/mnu_import" />
+    </PreferenceCategory>
+
+    <PreferenceCategory android:title="@string/about">
+        <Preference
+            android:icon="@mipmap/ic_launcher"
+            android:key="key_app_name"
+            android:selectable="false"
+            android:summary="@string/version"
+            android:title="@string/app_name" />
+        <Preference
+            android:key="key_develop"
+            android:selectable="false"
+            android:summary="@string/sub_develop"
+            android:title="@string/develop" />
+        <Preference
+            android:key="key_send_feedback"
+            android:summary="@string/feedback_question"
+            android:title="@string/send_comments" />
+        <Preference
+            android:key="key_portfolio"
+            android:summary="https://jcarrasco96.com/"
+            android:title="@string/our_portfolio" />
+        <Preference
+            android:icon="@drawable/ic_telegram"
+            android:key="key_telegram"
+            android:summary="https://t.me/une2024/"
+            android:title="@string/our_telegram" />
+        <Preference
+            android:selectable="false"
+            android:summary="@string/sub_about" />
+        <Preference
+            android:selectable="false"
+            android:summary="Android Studio Iguana | 2023.2.1 Patch 1\nBuild #AI-232.10300.40.2321.11567975\nMarch 13, 2024"
+            android:title="Compilación" />
+    </PreferenceCategory>
+
+</PreferenceScreen>
